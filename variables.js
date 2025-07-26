@@ -1,4 +1,7 @@
-//Variables
+/*Variables/*
+
+"use  strict"; 
+
 //original javascript syntax
 var height;
 var weight;
@@ -14,7 +17,7 @@ console.log(_weight);
 
 
 
-//
+//*  /
 let hheight = 12;
 let anotherheight = hheight;
 console.log(hheight);
@@ -25,3 +28,21 @@ let anotherweight = wweight;
 console.log(anotherweight);
 let aanotherweight = anotherweight;
 console.log(aanotherweight);
+console.log('height');
+console.log('weight');
+
+
+
+//changing variables
+let red = 1;
+console.log(red);
+red = 3
+console.log(red);
+red = red + 100;
+console.log(red);
+*/
+
+let greeting = "Hello!";
+let counter = 100;
+console.log(greeting);
+console.log(counter);
