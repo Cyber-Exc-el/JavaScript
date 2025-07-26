@@ -1,4 +1,4 @@
-/*Variables/*
+//Variables
 
 "use  strict"; 
 
@@ -40,9 +40,13 @@ red = 3
 console.log(red);
 red = red + 100;
 console.log(red);
-*/
+
+
 
 let greeting = "Hello!";
 let counter = 100;
+console.log(counter)
 console.log(greeting);
-console.log(counter);
+console.log(greeting);
+greeting = greeting + counter;
+console.log(greeting);
