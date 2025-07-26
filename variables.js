@@ -73,7 +73,7 @@ console.log(_we_ight);
 
 
 let c_ounter = 30;
-console.log(c_ounter)
+console.log(c_ounter);
 {
      counter = 40;
      console.log(c_ounter);
@@ -85,7 +85,7 @@ console.log(c_ounter);
 
 
 let co_unter = 30;
-console.log(counter);
+console.log(co_unter);
 {
      let counter = 40;
      console.log(co_unter);
