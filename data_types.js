@@ -14,4 +14,3 @@ console.log(typeof object);
 let variable;
 console.log(typeof variable);
 //
-alert('red');
