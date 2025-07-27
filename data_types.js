@@ -1,4 +1,4 @@
-/*/Literals
+//Literals
 let  year  =  2025;
 console.log(year);
 console.log(2002);
@@ -18,7 +18,6 @@ console.log(typeof variable);
 let istooshort = true;
 istoolong = false;
 console.log(istooshort);
-
 
 //Numbers
 let Months = 365 / 52;
@@ -68,7 +67,6 @@ console.log(we);
 
 let w_e = BigInt(1000000050000000008) + 2n;
 console.log(w_e); // --> will work 
-*/
 
 //String
 let country = "Nigeria";
@@ -77,5 +75,87 @@ console.log(typeof country);
 console.log(country);
 console.log(typeof continent);
 console.log(continent);
-let w_e = BigInt(1000000050000000008) + 2n;
-console.log(w_e,: typeof); // --> will work 
+let w_e_1 = BigInt(1000000050000000008) + 2n;
+console.log(typeof w_e_1); // --> will work 
+
+let message_1 = "Let's March out 'On";
+let message_2 = 'Lets got out for a "walk"';
+console.log(message_1);
+console.log(message_2);
+
+let message_3 = "Let's \"March\" out 'On";
+let message_4 = 'Lets got out for a \'walk\'';
+console.log(message_3);
+console.log(message_4);
+   
+let  path  =  "C:\\Windows";
+console.log(path); 
+
+let sonumb_1_0 = "C:\\" - "Windows";
+console.log(sonumb_1_0);// --> NaN
+
+let sonumb_1_0_1 = "C:\\\\" + "Windows";
+console.log(sonumb_1_0_1);// --> C:\\Windows
+
+let sonumb_1 = "100" - "10";
+console.log(sonumb_1);
+let sonumb_1_1 = "100" / "10";
+console.log(sonumb_1_1);
+let sonumb_1_2 = "100" * "10";
+console.log(sonumb_1_2);
+
+let sonumb_1_3 = "100" + "10";
+console.log(sonumb_1_3); // --> 100100
+
+//$
+let continent_1 = "Africa";
+let country_2 = "Nigeria";
+let place = `${country_2} is a country in ${continent_1}.`
+console.log(place);
+
+
+//
+console.time();
+console.log("Test Console");
+console.timeEnd();
+console.time();
+console.timeLog();
+
+
+//
+let river_1 = "Niger";
+let char_1 = river_1.charAt(1);
+console.log(char_1);
+console.log(river_1);
+
+console.time(river_1);
+console.log("Test Console");
+console.timeEnd(river_1);
+console.time(river_1);
+console.timeLog(river_1);
+
+//Methods
+let river_2 = "Java script Language";
+let char_2 = river_2.charAt(2);
+console.log(char_2);
+console.log(river_2);
+
+let river_3 = "Java script Language";
+let char_3 = river_3.length
+console.log(char_3);
+console.log(river_3);
+
+let r_iver = "Java script Language";
+let ch_a__r = r_iver.slice(0, 19);
+console.log(ch_a__r);
+console.log(r_iver);
+
+let river_4 = "Java script Language";
+let char_4 = river_4.split("");
+console.log(char_4);
+console.log(river_4);
+
+
+let char_5 = 'Java';
+console.log(char_5.length);
+
