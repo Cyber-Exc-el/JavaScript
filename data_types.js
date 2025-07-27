@@ -13,3 +13,5 @@ let object = [1, 2, 4];
 console.log(typeof object);
 let variable;
 console.log(typeof variable);
+//
+alert('red');
