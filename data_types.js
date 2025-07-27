@@ -13,13 +13,4 @@ let object = [1, 2, 4];
 console.log(typeof object);
 let variable;
 console.log(typeof variable);
-//
 
-
-
-let ye_ar = 33;
-console.log(typeof ye_ar);
-
-let years = typeof ye_ar;
-console.log(ye_ar);
-console.log(typeof years); 
