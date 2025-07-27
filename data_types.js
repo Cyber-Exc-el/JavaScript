@@ -1,4 +1,4 @@
-//Literals
+/*/Literals
 let  year  =  2025;
 console.log(year);
 console.log(2002);
@@ -53,7 +53,6 @@ let num_be_r = -Infinity
 console.log(num_ber);
 console.log(num_be_r);
 
-
 //Big-Int
 let  big  =  1234567890000000000000n;
 let  big2  =  1n;
@@ -69,6 +68,14 @@ console.log(we);
 
 let w_e = BigInt(1000000050000000008) + 2n;
 console.log(w_e); // --> will work 
-
+*/
 
 //String
+let country = "Nigeria";
+let continent = "Africa";
+console.log(typeof country);
+console.log(country);
+console.log(typeof continent);
+console.log(continent);
+let w_e = BigInt(1000000050000000008) + 2n;
+console.log(w_e,: typeof); // --> will work 
