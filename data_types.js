@@ -1,4 +1,4 @@
-/*Literals
+//Literals
 let  year  =  2025;
 console.log(year);
 console.log(2002);
@@ -52,7 +52,6 @@ let num_ber = 12 / 0;
 let num_be_r = -Infinity
 console.log(num_ber);
 console.log(num_be_r);
-*/
 
 
 //Big-Int
@@ -70,3 +69,6 @@ console.log(we);
 
 let w_e = BigInt(1000000050000000008) + 2n;
 console.log(w_e); // --> will work 
+
+
+//String
