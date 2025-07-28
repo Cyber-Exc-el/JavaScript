@@ -111,14 +111,12 @@ let country_2 = "Nigeria";
 let place = `${country_2} is a country in ${continent_1}.`
 console.log(place);
 
-
 //
 console.time();
 console.log("Test Console");
 console.timeEnd();
 console.time();
 console.timeLog();
-
 
 //
 let river_1 = "Niger";
@@ -156,10 +154,6 @@ console.log(river_4);
 
 let char_5 = 'Java';
 console.log(char_5.length);
-
-
-
-
 
 
 let str = String(); 
