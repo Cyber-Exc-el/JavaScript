@@ -282,11 +282,6 @@ console.log(typeof und);
 console.log(undUnd);
 
 //Bool Conversion
-let boo_l_ = 0;
-let bool_Bool = Boolean(boo_l_);
-console.log(typeof boo_l_);
-console.log(boo_l_);
-
 let bool_1 = 0;
 let bool_1_Bool = Boolean(bool_1);
 console.log(typeof bool_1);
@@ -411,7 +406,6 @@ let bi2 = Number(1n);
 
 console.log(`${bi1} [${typeof bi1}]`);
 console.log(`${bi2} [${typeof bi2}]`);
-
 
 let unde = undefined;
 console.log(`${unde} : ${typeof unde}`);
