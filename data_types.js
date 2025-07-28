@@ -159,3 +159,13 @@ console.log(river_4);
 let char_5 = 'Java';
 console.log(char_5.length);
 
+
+
+
+
+
+
+
+
+
+let
