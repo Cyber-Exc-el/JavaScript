@@ -32,26 +32,16 @@ console.log(half_month);
 
 let Week = 7 - 2;
 console.log(Week);
-
-let a = 10; 
-let b = 0x10; 
-let c = 0o10;
-let d = 0b100; 
-
-console.log(a); 
-console.log(b); 
-console.log(c); 
-console.log(d); 
    
-let x = 9e3;
-let y = 123e-5;
-console.log(x); 
-console.log(y); 
+let x_ = 9e3;
+let y_ = 123e-5;
+console.log(x_); 
+console.log(y_); 
 
-let num_ber = 12 / 0;
-let num_be_r = -Infinity
-console.log(num_ber);
-console.log(num_be_r);
+let num__ber = 12 / 0;
+let num_be__r = -Infinity
+console.log(num__ber);
+console.log(num__be_r);
 
 
 //Big-Int
@@ -88,22 +78,22 @@ let variable;
 console.log(typeof variable);
 
 //Boolean//
-let istooshort = true;
+let istoo_short = true;
 istoolong = false;
-console.log(istooshort);
+console.log(istoo_short);
 
 //Numbers
-let Months = 365 / 52;
-console.log(Months);
+let Mon_ths = 365 / 52;
+console.log(Mon_ths);
 
-let weeks = 7 * 30;
+let wee_ks = 7 * 30;
 console.log(weeks);
 
-let half_month = 6 + 6;
-console.log(half_month);
+let halfmonth = 6 + 6;
+console.log(halfmonth);
 
-let Week = 7 - 2;
-console.log(Week);
+let We_ek = 7 - 2;
+console.log(We_ek);
 
 let a = 10; 
 let b = 0x10; 
@@ -125,9 +115,6 @@ let num_be_r = -Infinity
 console.log(num_ber);
 console.log(num_be_r);
 
-//Big-Int
-let  big  =  1234567890000000000000n;
-let  big2  =  1n;
    
 console.log(big);  
 console.log(typeof  big);  
@@ -135,12 +122,7 @@ console.log(typeof  big);
 console.log(big2); 
 console.log(7n  /  4n);  
 
-let we = BigInt(10000050000007000008) + 2; // --> wouldn't work (Error)
-console.log(we);
 
-let w_e = BigInt(100000005005007000008) + 2n;
-console.log(w_e); // --> will work 
-console.log(typeof w_e);
 
 //String
 let country = "Nigeria";
