@@ -1,3 +1,4 @@
+
 /*Unary increment and decrement operators*/
 let a = 10;
 console.log(a);
@@ -97,3 +98,20 @@ console.log(1234 || false); // --> 1234
 console.log(0 && 53); // ---> 0
 console.log("Red" || true); // ---> Red
 console.log("" || "Red"); // ---> Red
+
+
+
+console.log(10 === 10);
+console.log("10" === 10);
+console.log(10n === 10);
+console.log("bob" === "Bob");
+console.log(0 === false);
+console.log("10" === "10");
+console.log("10" != "10");
+
+console.log("10" <= 20); // -> true
+
+console.log(10 == 10);
+console.log(10n == 10);
+console.log("10" == 10);
+console.log(5 == 10);
