@@ -4,11 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <script>
-
-  </script>
+  <script defer src="./_dom.js"></script>
 </head>
 <body>
-  <input type="text" name="text" id="my text">
+  <input type="text" id="mytext">
+  <button onclick="console.log(document.getElementById('mytext').value)">get text</button>
 </body>
 </html>
