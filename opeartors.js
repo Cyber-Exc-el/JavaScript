@@ -55,21 +55,21 @@ console.log(x);
 
 /*Logical operators*/
 //AND &&
-console.log(true && true);
-console.log(true && false);
-console.log(false && true);
-console.log(false && false);
+console.log(true && true); // --> true
+console.log(true && false); // --> false
+console.log(false && true); // --> false
+console.log(false && false); // --> false
 
 //OR ||
-console.log(true || true);
-console.log(true || false);
-console.log(false || true);
-console.log(false || false);
+console.log(true || true); // --> true
+console.log(true || false); // --> true
+console.log(false || true); // --> true
+console.log(false || false); // --> false
 
 //NOT !
-console.log(!true);
-console.log(!false);
-
+console.log(!true); // --> false
+console.log(!false); // --> true
+ 
 const a_1 = true;
 const b_1 = true;
 const c_1 = false;
@@ -111,7 +111,16 @@ console.log("10" != "10");
 
 console.log("10" <= 20); // -> true
 
-console.log(10 == 10);
-console.log(10n == 10);
-console.log("10" == 10);
-console.log(5 == 10);
+console.log(10 == 10); // --> True
+console.log(10n == 10); // --> True
+console.log("10" == 10); // --> True
+console.log(5 == 10); // --> False
+console.log("Alice" == "Alice "); // --> False
+console.log("Alice" == "Bob"); // --> False
+console.log(0 == false); // --> True
+console.log(null == undefined); // --> true
+console.log(null == false); // --> false
+console.log(undefined == false); // --> false
+console.log(NaN == NaN); // --> False
+
+console.log(3 * 4 > 20 - 15)
