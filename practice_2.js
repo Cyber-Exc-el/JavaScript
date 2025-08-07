@@ -61,8 +61,6 @@ Namearray[2] = {
 }
 
 
-
-
 //Adding elements to an empty array
 let Array = [];
 console.log(Array);
@@ -79,16 +77,16 @@ console.log(colorarray[1]);
 console.log(colorarray[2]);
 console.log(colorarray[3]);
 
-rubish_array = Arrays[1];
-console.log(rubish_array[3]);
+rubbish_array = Arrays[1];
+console.log(rubbish_array[3]);
 
-rubish_array[3] = "Maks sesne"
-console.log(rubish_array[3]);
+rubbish_array[3] = "Maks sesne"
+console.log(rubbish_array[3]);
 
-console.log(rubish_array);
+console.log(rubbish_array);
 
-delete rubish_array[3];
-console.log(rubish_array[3]);
+delete rubbish_array[3];
+console.log(rubbish_array[3]);
 
 
 let ar = [["Excel", "Mark", "Paul"], ["Rider", "Archer", "Doc"]];

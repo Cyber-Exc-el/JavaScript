@@ -108,6 +108,7 @@ console.log("bob" === "Bob");
 console.log(0 === false);
 console.log("10" === "10");
 console.log("10" != "10");
+console.log(10 !== "10");
 
 console.log("10" <= 20); // -> true
 

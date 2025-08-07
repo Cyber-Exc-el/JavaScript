@@ -14,7 +14,7 @@ let addInsurance = true;
 /** calculate shipping cost*/
 if ((userAge < 21) && hasParentsApproval === false) {
      isOrderValid === false;
-     console.log("invaild Order");
+     console.log("invalid Order");
 }
 
 else if ((userAge <= 21) && hasParentsApproval === true) {
@@ -29,7 +29,7 @@ else if ((userAge >= 65) ||  (userAge >= 21 && (hasPromoCode || hasParentsApprov
 }
 
 
-/** take account of insurance */
+/* take account of insurance */
 if (addInsurance  && isOrderValid && hasPromoCode === false) {
      shippingCost += INSURANCE_COST
      isOrderValid === true;
